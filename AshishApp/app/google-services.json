@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1088523473582",
+    "firebase_url": "https://ashishapp-4658c.firebaseio.com",
+    "project_id": "ashishapp-4658c",
+    "storage_bucket": "ashishapp-4658c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088523473582:android:10eb34ffd682cef2d6d33f",
+        "android_client_info": {
+          "package_name": "com.example.ashishapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088523473582-9dhfn71c6ng1io2bklan8sdd9uov5p9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashishapp",
+            "certificate_hash": "2a8b53c38dd61b84ed0e91a4268334c0c4aa3f1a"
+          }
+        },
+        {
+          "client_id": "1088523473582-qluh9o3n69g8a0d2l48ftvkc4oee197p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRafJpZpUX77cGbq8zekAd5hhOPW6fXws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088523473582-qluh9o3n69g8a0d2l48ftvkc4oee197p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

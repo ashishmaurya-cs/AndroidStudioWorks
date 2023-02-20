@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AshishApp</string>
+    <string name="calculator_name">Ashish Calculator</string>
+    <string name="login_name">Login Page</string>
+    <string name="quiz">JavaQuiz</string>
+    <string name="title_activity_tabbed_ex">TabbedEx</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_main10">Main10Activity</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Profile"
+    android:id="@+id/menu_item"
+    android:icon="@android:drawable/btn_minus"
+    />
+    <item
+        android:title="Setting"
+        android:id="@+id/menu_item2"
+        android:icon="@android:drawable/btn_plus"
+        app:showAsAction=""
+        />
+
+    <item
+        android:title="Reset Password"
+        android:id="@+id/menu_item3"
+        android:icon="@android:drawable/ic_delete"
+        />
+    <item
+        android:title="Privacy"
+        android:icon="@drawable/australia"
+        android:id="@+id/menu_item4">
+    </item>
+    <item
+        android:title="Logout"
+        android:icon="@drawable/india"
+        android:id="@+id/menu_item5"
+        ></item>
+
+</menu>

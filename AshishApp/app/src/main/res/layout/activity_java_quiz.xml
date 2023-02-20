@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginborder"
+  android:gravity="center"
+    android:layout_margin="40sp"
+    tools:context=".JavaQuiz">
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JavaQuiz"
+        android:textColor="@color/buttonColor"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textSize="50sp"
+        />
+
+
+         <EditText
+             android:id="@+id/et"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="Enter Your Name"
+             android:background="@drawable/edittextbuttombordercolor"
+             android:textColorHint="@color/black"
+             android:textAlignment="center"
+             android:padding="15dp"
+             android:textColor="@color/black"
+             android:layout_margin="30sp"
+            />
+
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:onClick="start"
+        android:background="@drawable/roundbutton"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textSize="20sp"
+        android:layout_marginBottom="15sp"
+        android:textColor="@color/white"
+        android:padding="15sp"
+        />
+
+
+
+</LinearLayout>

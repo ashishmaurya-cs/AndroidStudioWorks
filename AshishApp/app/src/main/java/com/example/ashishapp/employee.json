@@ -1,0 +1,19 @@
+{
+  "FamilyMember": [
+    {
+      "mAge": 22,
+      "mRole": "Student"
+    },
+    {
+      "mAge": 60,
+      "mRole": "Parent"
+    }
+  ],
+  "address": {
+    "City": "Delhi",
+    "country": "India"
+  },
+  "age": 21,
+  "firstName": "Ashish",
+  "lastName": "Maurya"
+}

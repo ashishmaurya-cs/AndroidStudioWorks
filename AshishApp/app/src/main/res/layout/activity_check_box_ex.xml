@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckBoxEx">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your programming language"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30sp"
+        android:background="#e0e0e0"
+        >
+
+        <CheckBox
+            android:id="@+id/box1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Android"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+
+        <CheckBox
+            android:id="@+id/box2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="JAVA"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+
+        <CheckBox
+            android:id="@+id/box3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="ASP"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+
+        <CheckBox
+            android:id="@+id/box4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="PHP"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+
+
+        <CheckBox
+            android:id="@+id/box5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Python"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

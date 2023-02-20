@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashishapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_quiz"
+        android:label="@string/quiz"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".JsonExample">
+
+        </activity>
+        <activity android:name=".AlarmBroadcastReceiver"></activity>
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Notification" />
+        <activity android:name=".PicassoImage" />
+        <activity android:name=".JsonEx2" />
+        <activity android:name=".JsonArrayRequestEx" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ServiceActivity" />
+        <activity android:name=".ApiEx" />
+        <activity android:name=".JsonEx" />
+        <activity android:name=".SwitchEx" />
+        <activity android:name=".ProgressBarEx" />
+        <activity android:name=".SwipeRefreshEx" />
+        <activity android:name=".CheckBoxEx" />
+        <activity android:name=".RatingBarEx" />
+        <activity android:name=".SearchViewActivity" />
+        <activity android:name=".TextInputEx">
+        </activity>
+        <activity android:name=".Result" />
+        <activity android:name=".JavaQuiz">
+        </activity>
+        <activity android:name=".Questions" />
+        <activity android:name=".GalleryExample" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ImageSwitcherActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".CardViewExample" />
+        <activity android:name=".ImplicitIntentMessage" />
+        <activity android:name=".RadioGroup" />
+        <activity android:name=".LoginExplicitIntent" />
+        <activity android:name=".LoginPage"></activity>
+        <activity android:name=".ImplicitIntent" />
+        <activity android:name=".ExplicitIntent" />
+        <activity android:name=".Main8Activity" >
+
+        </activity>
+        <activity android:name=".Listview" />
+        <activity android:name=".Main9Activity" >
+
+
+        </activity>
+        <activity android:name=".Main7Activity">
+
+        </activity>
+        <activity android:name=".Main6Activity">
+
+        </activity>
+        <activity android:name=".Main5Activity">
+        </activity>
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main3Activity">
+
+        </activity>
+        <activity android:name=".Main2Activity">
+
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
